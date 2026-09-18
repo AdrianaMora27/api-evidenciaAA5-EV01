@@ -21,3 +21,18 @@
  //Añado los cambios git commit -m "Finalizacion del proyecto de autenticacion AA5-EV02"
  //guardo cambios en la nube git push origin main
 
+========================================================================
+EVIDENCIA GA7-220501096-AA5-EV02: REGISTRO DE ENDPOINTS DE LA API
+APRENDIZ: Adriana
+PROGRAMA: Análisis y Desarrollo de Software (SENA)
+========================================================================
+
+1. Servicio Web de Autenticación (Login)
+   - Descripción: Permite validar las credenciales de acceso del usuario.
+   - URL del Endpoint: http://localhost:8080/auth/
+   - Método HTTP: POST
+   - Parámetros de Entrada (x-www-form-urlencoded):
+     * usuario: admin
+     * password: 1234
+   - Tipo de Respuesta: HTML / JSON (según la lógica del servlet)
+   - Estado de Validación: Probado y verificado (Código 200 OK)
