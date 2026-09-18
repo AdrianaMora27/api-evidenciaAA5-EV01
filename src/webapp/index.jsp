@@ -77,6 +77,8 @@
             color: #555;
         }
     </style>
+
+    <!--Es la vista HTML o .JSP inicial, es lo que ve y diligencia el cliente-->
 </head>
 <body>
 

@@ -13,6 +13,16 @@ import javax.servlet.http.HttpServletResponse;
  * e inicio de sesión de usuarios.
  * Evidencia: GA7-220501096-AA5-EV01
  */
+
+/**Se creo el AuthServlet como extension de HTTPServlet para manejar las peticiones
+ * procesa la logica de autenticacion que se recibe desde el cliente
+ */
+
+/**Web.xml mapea el servlet y las rutas URL 
+ * permite que TOMCAT sepa a que clase JAVA enviar la peticion, en este caso
+ * lo hace a /AUTH/
+ */
+
 @WebServlet(name = "AuthServlet", urlPatterns = {"/api/auth"})
 public class AuthServlet extends HttpServlet {
 

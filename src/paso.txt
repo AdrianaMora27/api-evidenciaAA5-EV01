@@ -1,0 +1,23 @@
+//Mi nombre es Adriana Mora de la ficha de ADSO 3186631
+//Evidencia AA5-EV02 - API (testing)
+
+//Abrir apache TOMCAT
+//EN POWERSHELL $env:JAVA_HOME="C:\Program Files\Eclipse Adoptium\jdk-25.0.4.101-hotspot"
+//BUSCAR DESPUES DEL COMANDO ANTERIOR cd "C:\Users\COMS\Downloads\apache-tomcat-9.0.122-windows-x64\apache-tomcat-9.0.122\bin"
+//INICIANDO EL SERVIDOR .\startup.bat
+
+//ABRO POSTMAN APLICACION ESCRITORIO
+//METODO POST / INGRESA LOCALHOST http://localhost:8080/auth/
+//LOCALHOST:8080 NOMBRE SERVIDOR - AUTH LA CARPETA QUE DESPLEGAMOS DENTRO DEL DIRECTORIO WEBAPP DE TOMCAT 
+
+//SELECCIONA BODY Y LUEGO x-www-form-urlencoded
+//admin 1234
+ // Boton azul (SEND)
+
+
+ //Enviamos a git 
+ //Verifico el estado git status
+ //ejecuto el comando git add .
+ //Añado los cambios git commit -m "Finalizacion del proyecto de autenticacion AA5-EV02"
+ //guardo cambios en la nube git push origin main
+
